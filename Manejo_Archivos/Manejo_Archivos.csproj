@@ -67,9 +67,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="carga.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="listado.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="carga.aspx.cs">
+      <DependentUpon>carga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="carga.aspx.designer.cs">
+      <DependentUpon>carga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="listado.aspx.cs">
+      <DependentUpon>listado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="listado.aspx.designer.cs">
+      <DependentUpon>listado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
