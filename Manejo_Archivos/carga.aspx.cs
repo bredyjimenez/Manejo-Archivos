@@ -18,6 +18,9 @@ namespace Manejo_Archivos
         protected void btnConfirmar_Click(object sender, EventArgs e)
         {
             StreamWriter arch = new StreamWriter(Server.MapPath(".") + "/visitas.txt", true);
+            /*El valor true que le pasamos en el constructor significa que si el archivo no existe
+             * en el servidor en la carpeta especificada se procede a su creación y en el caso que si existe
+             * se procede a su apertura y posicionado del puntero de archivo al final del mismo.*/
             arch.WriteLine("Nombre:" + txtNombre.Text);
             arch.WriteLine("<br>");
             arch.WriteLine("Pais:" + txtPais.Text);

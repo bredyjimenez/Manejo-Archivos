@@ -53,3 +53,4 @@ C:\Users\adria\Desktop\Manejo_Archivos\Manejo_Archivos\obj\Debug\Manejo_Archivos
 C:\Users\adria\Desktop\Manejo_Archivos\Manejo_Archivos\obj\Debug\Manejo_Archivos.csproj.CopyComplete
 C:\Users\adria\Desktop\Manejo_Archivos\Manejo_Archivos\obj\Debug\Manejo_Archivos.dll
 C:\Users\adria\Desktop\Manejo_Archivos\Manejo_Archivos\obj\Debug\Manejo_Archivos.pdb
+C:\Users\adria\Desktop\Manejo_Archivos\Manejo_Archivos\obj\Debug\Manejo_Archivos.csprojAssemblyReference.cache
